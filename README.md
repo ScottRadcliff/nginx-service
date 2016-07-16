@@ -3,9 +3,9 @@ This is the script for setting up service scripts for nginx. When I install via 
 
 To get this working, paste the contents of the `nginx` file into `/etc/init.d/nginx` and chmod it `sudo chmod +x /etc/init.d/nginx`
 
-Now you get:
+Now you get:  
 
-sudo service nginx stop 
-sudo service nginx start 
-sudo service nginx restart
-sudo service nginx reload
+`sudo service nginx stop`  
+`sudo service nginx start`  
+`sudo service nginx restart`  
+`sudo service nginx reload`  
